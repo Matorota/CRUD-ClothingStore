@@ -30,8 +30,6 @@ npm run dev
 
 ### In your terminal, run:
 
-In your terminal, run:
-
 cd front
 
 npm install
