@@ -102,6 +102,28 @@ app.delete("/cloth/:id", (req, res) => {
   });
 });
 
+// Get a cloth item by ID
+app.post("/api/users", (req, res) => {
+  const { user_name, user_surname, user_password } = req.body;
+
+  // Ensure all required fields are provided
+  if (!user_name || !user_surname || !user_password) {
+    return res.status(400).json({ error: "All fields are required" });
+  }
+
+  const query = `
+    INSERT INTO user (User_name, User_surname, User_password)
+    VALUES (?, ?, ?)
+  `;
+
+  db.query(query, [user_name, user_surname, user_password], (err, result) => {
+    if (err) {
+      console.error("Error inserting user:", err.message);
+      return res.status(500).json({ error: "Failed to register user" });
+    }
+    res.status(201).json({ message: "User registered successfully" });
+  });
+});
 // Update a cloth item
 app.put("/cloth/:id", (req, res) => {
   const clothId = req.params.id;
