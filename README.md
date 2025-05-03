@@ -23,7 +23,6 @@ npm install
 
 npm run dev
 
-# -- End of frontend setup --
 
 
 # Backend setup
@@ -36,7 +35,6 @@ npm install
 
 npm run dev
 
-# -- End of Backend setup --
 
 
 ## 🧰 Tech Stack
