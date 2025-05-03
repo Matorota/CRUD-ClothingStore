@@ -1,23 +1,45 @@
-CRUD Type project
-MYSQL + JavaScript + React/Vite + Express
+# 🛒 Navaro Web Store Project
 
-Web store project Navaro
+**CRUD Application** using **MySQL + JavaScript + React (Vite) + Express**
 
-How to start project
+---
 
-FRONTEND SETUP
+## 📋 Description
 
-In terminal:
+Navaro is a web-based store project that demonstrates full CRUD functionality. It features a MySQL database, an Express.js backend, and a Vite-powered React frontend.
 
+---
+
+## 🚀 Getting Started
+
+### 📦 Frontend Setup
+
+In your terminal, run:
+
+```bash
 cd front
-mpm instal
+npm install
 npm run dev
-http://localhost:5173/
 
-BackEnd setup
 
-cd backend
-mpm instal
-npm start
+###🛠 Backend Setup
+In your terminal, run:
+```bash
+cd front
+npm install
+npm run dev
 
-http://localhost:3000/
+
+## 🧰 Tech Stack
+Frontend: React + Vite
+
+Backend: Express.js
+
+Database: MySQL
+
+Language: JavaScript
+
+## 📎 Notes
+Make sure MySQL is running and accessible.
+
+Ensure proper environment variables (e.g., DB credentials) are configured if required.
