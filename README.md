@@ -13,7 +13,7 @@ Navaro is a web-based store project that demonstrates full CRUD functionality. I
 ## 🚀 Getting Started
 
 
-# DataBase need to be turned on
+DataBase need to be turned on
 
 #
 
