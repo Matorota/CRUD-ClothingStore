@@ -26,7 +26,7 @@ npm run dev
 # -- End of frontend setup --
 
 
-#🛠 Backend Setup
+# Backend setup
 
 In your terminal, run:
 
