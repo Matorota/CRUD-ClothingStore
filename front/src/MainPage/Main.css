@@ -1,0 +1,55 @@
+.about-section {
+  margin-top: 50px;
+  padding: 40px 20px;
+}
+
+.about-block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.about-block.reverse {
+  flex-direction: row-reverse;
+}
+
+.about-image {
+  width: 50%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 20px;
+}
+
+.about-text {
+  flex: 1;
+  text-align: left;
+}
+
+.about-text h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+}
+.hero {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Ensure the footer has no top margin */
+footer {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Optional: Remove any default body margin or padding */
+body {
+  margin: 0;
+  padding: 0;
+}
