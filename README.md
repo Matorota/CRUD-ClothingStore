@@ -18,16 +18,22 @@ In your terminal, run:
 
 # Frontend setup
 cd front
+
 npm install
+
 npm run dev
+
 # -- End of frontend setup --
 
 
 #🛠 Backend Setup
 
 In your terminal, run:
+
 cd front
+
 npm install
+
 npm run dev
 
 # -- End of Backend setup --
