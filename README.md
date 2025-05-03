@@ -13,7 +13,7 @@ Navaro is a web-based store project that demonstrates full CRUD functionality. I
 ## 🚀 Getting Started
 
 
-#In your terminal, run:
+# In your terminal, run:
 
 ## Frontend setup
 cd front
