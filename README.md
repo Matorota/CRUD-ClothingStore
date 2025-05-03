@@ -15,7 +15,10 @@ Navaro is a web-based store project that demonstrates full CRUD functionality. I
 
 DataBase need to be turned on
 
-#
+Frontend and Backend should be both turned on to function
+
+( If having errors with DB change the name of the connecting database in the index.js ) 
+
 
 ## Frontend setup
 
@@ -39,7 +42,6 @@ npm install
 
 npm start
 
-If having errors with DB change the name of the connecting database in the index.js
 
 ## 🧰 Tech Stack
 Frontend: React + Vite
