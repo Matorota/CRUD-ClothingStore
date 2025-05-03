@@ -16,18 +16,21 @@ Navaro is a web-based store project that demonstrates full CRUD functionality. I
 
 In your terminal, run:
 
-```bash
+# Frontend setup
 cd front
 npm install
 npm run dev
+# -- End of frontend setup --
 
 
-###🛠 Backend Setup
+#🛠 Backend Setup
+
 In your terminal, run:
-```bash
 cd front
 npm install
 npm run dev
+
+# -- End of Backend setup --
 
 
 ## 🧰 Tech Stack
