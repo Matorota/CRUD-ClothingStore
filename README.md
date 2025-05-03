@@ -13,6 +13,9 @@ Navaro is a web-based store project that demonstrates full CRUD functionality. I
 ## 🚀 Getting Started
 
 
+#DataBase need to be turned on
+
+#
 
 ## Frontend setup
 
@@ -36,7 +39,7 @@ npm install
 
 npm start
 
-
+If having errors with DB change the name of the connecting database in the index.js
 
 ## 🧰 Tech Stack
 Frontend: React + Vite
