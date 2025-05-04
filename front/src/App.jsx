@@ -4,18 +4,18 @@ import Clothes from "./pagesAdmin/Clothes";
 import Add from "./pagesAdmin/Add";
 import Update from "./pagesAdmin/Update";
 import Main from "./MainPage/Main";
-
 import MainLG from "./LoginFrom/MainLG"; // start page
 import Login from "./LoginFrom/Login"; //Admin
 import UserMain from "./MainPage/UserMain"; //Main User page
-
 import AdminMain from "./MainPage/Main"; //Main admin page
-
 import UserLogin from "./LoginFrom/LoginUser"; //User login page
-
 import ClothesList from "./PagesUser/ClothesList";
-import "./index.css";
 import RegisterUser from "./LoginFrom/RegisterUser";
+import Contacts from "./PagesUser/Contacts";
+import Permission from "./PagesUser/Permission";
+import ShopingCard from "./PagesUser/ShopingCard";
+
+import "./index.css";
 
 function App() {
   return (
@@ -39,8 +39,9 @@ function App() {
         {/* Extra shit for user */}
 
         <Route path="/clothes-user-list" element={<ClothesList />} />
-        <Route path="/contacts" element={<UserMain />} />
-        <Route path="/permision" element={<UserMain />} />
+        <Route path="/contacts" element={<Contacts />} />
+        <Route path="/permision" element={<Permission />} />
+        <Route path="/shopingCard" element={<ShopingCard />} />
       </Routes>
     </div>
   );

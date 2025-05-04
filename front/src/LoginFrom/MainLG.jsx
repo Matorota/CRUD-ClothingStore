@@ -7,7 +7,7 @@ const MainLG = () => {
 
   return (
     <div className="main-lg-container">
-      <h1>Welcome to the Clothing App</h1>
+      <h1>Welcome to Navaro Clothing Store</h1>
       <div className="button-container">
         <button className="menu-button" onClick={() => navigate("/login")}>
           Login as Admin

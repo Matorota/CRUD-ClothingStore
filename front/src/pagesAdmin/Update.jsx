@@ -3,6 +3,7 @@ import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
 import Navbar from "../Conponents/NavBar";
 import Footer from "../Conponents/Footer";
+import "./Update.css"; // Import the CSS file for styling
 
 const Update = () => {
   const { id } = useParams();
@@ -42,40 +43,48 @@ const Update = () => {
   };
 
   return (
-    <div>
+    <div className="update-page">
       <Navbar />
-      <h1>Update Cloth</h1>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="Name"
-          name="Cloth_Name"
-          value={cloth.Cloth_Name}
-          onChange={handleChange}
-        />
-        <input
-          type="text"
-          placeholder="Photo URL"
-          name="Cloth_photo"
-          value={cloth.Cloth_photo}
-          onChange={handleChange}
-        />
-        <input
-          type="text"
-          placeholder="Color"
-          name="Cloth_color"
-          value={cloth.Cloth_color}
-          onChange={handleChange}
-        />
-        <input
-          type="number"
-          placeholder="Price"
-          name="Price"
-          value={cloth.Price}
-          onChange={handleChange}
-        />
-        <button type="submit">Update Cloth</button>
-      </form>
+      <div className="update-container">
+        <h1>Update Cloth</h1>
+        <form className="update-form" onSubmit={handleSubmit}>
+          <input
+            type="text"
+            placeholder="Name"
+            name="Cloth_Name"
+            value={cloth.Cloth_Name}
+            onChange={handleChange}
+            required
+          />
+          <input
+            type="text"
+            placeholder="Photo URL"
+            name="Cloth_photo"
+            value={cloth.Cloth_photo}
+            onChange={handleChange}
+            required
+          />
+          <input
+            type="text"
+            placeholder="Color"
+            name="Cloth_color"
+            value={cloth.Cloth_color}
+            onChange={handleChange}
+            required
+          />
+          <input
+            type="number"
+            placeholder="Price"
+            name="Price"
+            value={cloth.Price}
+            onChange={handleChange}
+            required
+          />
+          <button type="submit" className="submit-button">
+            Update Cloth
+          </button>
+        </form>
+      </div>
       <Footer />
     </div>
   );

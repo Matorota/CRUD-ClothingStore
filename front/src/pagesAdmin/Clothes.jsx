@@ -32,7 +32,6 @@ const Clothes = () => {
   return (
     <div>
       <Navbar />
-      <h1>Clothing Store</h1>
 
       <div className="clothes flex flex-wrap gap-4 bg-blue-500">
         {clothes.map((item) => (
