@@ -90,7 +90,7 @@ app.post("/cloth", (req, res) => {
     return res.status(201).json("Cloth item has been added successfully.");
   });
 });
-
+// Get all cloth items by type
 // Delete a cloth item
 app.delete("/cloth/:id", (req, res) => {
   const clothId = req.params.id;
