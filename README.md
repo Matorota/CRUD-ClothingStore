@@ -17,7 +17,7 @@ DataBase need to be turned on
 
 Frontend and Backend should be both turned on to function
 
-( If having errors with DB change the name of the connecting database in the index.js ) 
+( If having errors with DB change the name of the connecting database in the index.js to the name of your database. Don't forget to update the password and user) 
 
 
 ## Frontend setup
