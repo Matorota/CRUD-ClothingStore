@@ -3,10 +3,10 @@ import mysql from "mysql2";
 // this is a TEMPORARY Connection. The main is in index.js
 
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root", // Replace with your database username
-  password: "root", // Replace with your database password
-  database: "betterClothes", // Replace with your database name
+  host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME,
 });
 
 db.connect((err) => {
