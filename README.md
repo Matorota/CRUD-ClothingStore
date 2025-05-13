@@ -19,7 +19,7 @@ And fill in the database requirements in .env
 
 Frontend and Backend should be both turned on to function
 
-( If having errors with DB change the name of the connecting database in the index.js to the name of your database. Don't forget to update the password and user) 
+( If having errors with DB change the name of the connecting database in the .env change connections to your specific ones or move the .env to index.js. Don't forget to update the password and user) 
 
 
 ## Frontend setup
