@@ -15,7 +15,7 @@ Navaro is a web-based store project that demonstrates full CRUD functionality. I
 
 DataBase need to be turned on
 
-Rename .envExample to .env
+Rename .envExample to .env (its for security)
 
 And fill in the database requirements in .env
 
