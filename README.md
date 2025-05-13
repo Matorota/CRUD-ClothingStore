@@ -14,6 +14,7 @@ Navaro is a web-based store project that demonstrates full CRUD functionality. I
 
 
 DataBase need to be turned on
+And fill in the database requirements in .env
 
 Frontend and Backend should be both turned on to function
 
