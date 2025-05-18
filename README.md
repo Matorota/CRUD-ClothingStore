@@ -40,7 +40,7 @@ npm run dev
 
 ### In your terminal, run:
 
-cd front
+cd backend
 
 npm install
 
