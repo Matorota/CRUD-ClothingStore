@@ -60,3 +60,5 @@ Language: JavaScript
 Make sure MySQL is running and accessible.
 
 Ensure proper environment variables (e.g., DB credentials) are configured if required.
+
+## Project done with FROG
