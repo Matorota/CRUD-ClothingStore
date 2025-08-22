@@ -1,4 +1,4 @@
-#  Navaro Web Store Project
+#  Navaro Web Store Project 
 
 **CRUD Application** using **MySQL + JavaScript + React (Vite) + Express**
 
